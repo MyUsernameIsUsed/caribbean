@@ -1,0 +1,144 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: burlywood;
+}
+
+
+nav {
+	margin: 0;
+	padding: 10px 25px;
+	background-color: cornflowerblue;
+	}
+		
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	}
+		
+nav li {
+	display: inline-block;
+	}
+		
+nav a {
+	padding: 10px 25px;
+	color: white;
+	font-size: 2em;
+	text-decoration: none;
+		}
+
+img {
+	max-width: 100%;
+	display: block;
+	background-size: cover;
+	width: 50%;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+header {
+	background-color: cornflowerblue;
+}
+
+blockqoute {
+	padding: 20px;
+	color: white;
+	font-size:.8em;
+}
+
+main{
+	min-height: 600px;
+
+
+}
+main #news {
+	background-image:url("../Thanos/images/newsletter.jpg");
+	min-height: 600px;
+	background-repeat: no-repeat;
+}
+
+h1{
+	padding: 20px;
+	color:white;
+}
+
+h2 {
+	padding: 20px;
+	color: white;
+}
+
+table {
+	width: 80%
+}
+
+#fNav {
+	
+}
+
+footer {
+	margin-top: 50px;
+}
+		
+.fnav ul {
+	list-style-type: none;
+	text-align: right;
+}
+		
+.fnav {
+	padding: 5px 10px;
+	font-size: .8em;
+	background-color: black;
+}
+		
+.fnav a {
+	color: black;
+}
+		
+.fnav a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#form {
+		margin-top:2%;
+		background-color: burlywood;
+		padding: 2%;
+	}
+	
+	#form h2 {
+		text-align: center;
+	}
+
+	fieldset, input, select, textarea {
+		margin-bottom: 2%;
+	}
+	
+	fieldset legend {
+		font-weight: bold;
+		font-size:1.25em;
+	}
+	
+	label{
+		display:block;
+		padding-top: 3%
+	}
+	
+	form #submit {
+		margin: 0 auto;
+		border: none;
+		display: block;
+		padding: 2%;
+		font-size: 1em;
+		border-radius: 10px;
+		background-color: lightskyblue;
+	}
+	
+	
+	
